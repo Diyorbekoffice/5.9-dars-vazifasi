@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Edit and Delete</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Ma'lumot kiriting</h2>
+        <label for="name">F.I.SH:</label>
+        <input type="text" id="name" placeholder="F.I.SH kiriting">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email kiriting">
+        
+        <label for="comment">Izoh:</label>
+        <textarea id="comment" placeholder="Izoh kiriting" rows="4"></textarea>
+        
+        <button id="submitBtn">Yuborish</button>
+    </div>
+
+    <div id="result"></div>
+    <p id="error-message" style="color:red;"></p>
+
+    <script src="./JavaScript/index.js"></script>
+</body>
+</html>
